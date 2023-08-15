@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Walk_Front
+    m_Hash: 963628422
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: hat_lucky_walk_0
+      m_Hash: 1017187218
+      m_Sprite: {fileID: 1621578240, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1309469247, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_1
+      m_Hash: 195443460
+      m_Sprite: {fileID: -1347807369, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -381415520, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_2
+      m_Hash: 313486014
+      m_Sprite: {fileID: 1498050002, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1934110385, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_3
+      m_Hash: 631790120
+      m_Sprite: {fileID: -298167551, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 350879269, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_4
+      m_Hash: 1003278219
+      m_Sprite: {fileID: 470686970, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -86653419, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_5
+      m_Hash: 214695709
+      m_Sprite: {fileID: 393315233, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1995625218, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_6
+      m_Hash: 365080231
+      m_Sprite: {fileID: 998169913, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1525230357, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_7
+      m_Hash: 583376433
+      m_Sprite: {fileID: 1400908964, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1783617446, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: Walk_Back
+    m_Hash: 346400819
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: hat_lucky_walk_8
+      m_Hash: 846889888
+      m_Sprite: {fileID: 4456426, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 886633698, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_9
+      m_Hash: 92123958
+      m_Sprite: {fileID: 2107995248, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -495833066, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_10
+      m_Hash: 872267011
+      m_Sprite: {fileID: 2015969306, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1196377688, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_11
+      m_Hash: 83529109
+      m_Sprite: {fileID: 966177067, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 211098744, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_12
+      m_Hash: 502520879
+      m_Sprite: {fileID: 244384879, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 24972092, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_13
+      m_Hash: 720694457
+      m_Sprite: {fileID: 885124602, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1326720773, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_14
+      m_Hash: 881883418
+      m_Sprite: {fileID: 2055479497, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1272909984, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_15
+      m_Hash: 60246412
+      m_Sprite: {fileID: -2057549725, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 468317260, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: WalkRight
+    m_Hash: 829942833
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: hat_lucky_walk_16
+      m_Hash: 446568502
+      m_Sprite: {fileID: -1150942954, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -457637877, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_17
+      m_Hash: 765012128
+      m_Sprite: {fileID: 1557935233, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -802257360, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_18
+      m_Hash: 1025914161
+      m_Sprite: {fileID: 2106432923, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1109176349, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_19
+      m_Hash: 169936295
+      m_Sprite: {fileID: 14562978, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1791177400, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_20
+      m_Hash: 416345792
+      m_Sprite: {fileID: 848352786, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1928731704, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_21
+      m_Hash: 802676310
+      m_Sprite: {fileID: 923534807, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1954522668, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_22
+      m_Hash: 920555500
+      m_Sprite: {fileID: 190912024, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1070807071, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_23
+      m_Hash: 31047546
+      m_Sprite: {fileID: 351427079, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 116204363, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: WalkLeft
+    m_Hash: 1036352720
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: hat_lucky_walk_24
+      m_Hash: 532490969
+      m_Sprite: {fileID: -50059223, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1263935974, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_25
+      m_Hash: 683285071
+      m_Sprite: {fileID: -689396421, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1149408065, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_26
+      m_Hash: 833833973
+      m_Sprite: {fileID: -58947688, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -2013416622, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_27
+      m_Hash: 112491363
+      m_Sprite: {fileID: -550930646, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 783650391, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_28
+      m_Hash: 369846002
+      m_Sprite: {fileID: 1085835544, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -55207544, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_29
+      m_Hash: 554456676
+      m_Sprite: {fileID: 289234763, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 1705293384, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_30
+      m_Hash: 30138241
+      m_Sprite: {fileID: 980633805, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1032301991, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    - m_Name: hat_lucky_walk_31
+      m_Hash: 919400215
+      m_Sprite: {fileID: -950173019, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 519149117, guid: f333d98935173a74e909f174c01185a8, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  m_PrimaryLibraryGUID: 4c126a681c343a943b8e0d6868fc30d0
+  m_ModificationHash: 638277202150684343
+  m_Version: 1

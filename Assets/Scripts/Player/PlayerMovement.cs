@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    Animator playerAnimator;
+    PlayerAnimations playerAnimations;
     Rigidbody2D rb;
 
     float horizontal;
@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerAnimator = FindObjectOfType<Animator>();
+        playerAnimations = GetComponent<PlayerAnimations>();
     }
 
     void SetupInput()
@@ -27,13 +27,13 @@ public class PlayerMovement : MonoBehaviour
 
     void SetupAnimation()
     {
-        playerAnimator.SetFloat("Horizontal", horizontal);
-        playerAnimator.SetFloat("Vertical", vertical);
+        playerAnimations.SetFloatForAllAnimators("Horizontal", horizontal);
+        playerAnimations.SetFloatForAllAnimators("Vertical", vertical);
 
         if (vertical != 0 || horizontal != 0)
         {
-            playerAnimator.SetFloat("IdleHorizontal", horizontal);
-            playerAnimator.SetFloat("IdleVertical", vertical);
+            playerAnimations.SetFloatForAllAnimators("IdleHorizontal", horizontal);
+            playerAnimations.SetFloatForAllAnimators("IdleVertical", vertical);
         }
     }
 
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     public void Move()
     {
         Vector2 playerVelocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
-        playerAnimator.SetFloat("Speed", playerVelocity.magnitude);
+        playerAnimations.SetFloatForAllAnimators("Speed", playerVelocity.magnitude);
         rb.velocity = playerVelocity;
     }
 }
