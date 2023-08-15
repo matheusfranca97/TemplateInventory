@@ -17,5 +17,4 @@ public class PlayerObject : ScriptableObject
     public List<Sprite> frontWalk;
     public List<Sprite> backWalk, leftWalk, rightWalk;
 
-
 }
