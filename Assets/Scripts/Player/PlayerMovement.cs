@@ -19,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
         playerAnimations = GetComponent<PlayerAnimations>();
     }
 
+    private void OnMouseDown()
+    {
+        Debug.Log("mouse down");
+    }
+
     void SetupInput()
     {
         horizontal = Input.GetAxisRaw("Horizontal");

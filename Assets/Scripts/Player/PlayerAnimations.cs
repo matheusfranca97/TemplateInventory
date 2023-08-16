@@ -11,7 +11,8 @@ public class PlayerAnimations : MonoBehaviour
     {
         for (int i = 0; i < playerAnimators.Count; i++)
         {
-            playerAnimators[i].SetFloat(id, value);
+            if (playerAnimators[i].isActiveAndEnabled)
+                playerAnimators[i].SetFloat(id, value);
         }
     }
 }
