@@ -8,6 +8,7 @@ public class InventoryView : MonoBehaviour
     [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private GameObject itemUI;
     [SerializeField] private List<GameObject> itemContainers;
+    [SerializeField] private GameObject marketUIPanel;
 
 
     public void OpenInventoryUI(List<Item> inventoryItens)
@@ -31,7 +32,6 @@ public class InventoryView : MonoBehaviour
     {
         CleanItemContainers();
 
-        Debug.Log(inventoryItens.Count);
         for (int i = 0; i < inventoryItens.Count; i++)
         {
             var newItemUI = Instantiate(itemUI, itemContainers[i].transform);
@@ -42,6 +42,7 @@ public class InventoryView : MonoBehaviour
     public void CloseInventoryUI()
     {
         inventoryPanel.SetActive(false);
+        marketUIPanel.SetActive(false);
     }
 
     public bool IsInventoryUIOpen()

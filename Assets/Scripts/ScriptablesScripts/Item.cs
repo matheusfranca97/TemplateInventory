@@ -5,7 +5,7 @@ using UnityEngine.U2D.Animation;
 
 public enum ItemType
 {
-    Cloth, Fruit, Hat
+    Cloth, Fruit, Hat, Any
 }
 
 [CreateAssetMenu(fileName = "ItemObject", menuName = "Item/ItemObject", order = 0)]

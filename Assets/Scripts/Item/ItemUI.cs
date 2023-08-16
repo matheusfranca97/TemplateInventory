@@ -9,7 +9,8 @@ public class ItemUI : MonoBehaviour
     public CanvasGroup canvasGroup;
     public Item myItem;
 
-    public bool equiped = false;
+    public bool equiped = false, forSale = false;
+
 
 
     private void Awake()
@@ -37,6 +38,14 @@ public class ItemUI : MonoBehaviour
         itemInformationText.transform.parent.gameObject.SetActive(false);
     }
 
+
+    Transform originalParent;
+    public void OnStartDrag()
+    {
+        originalParent = transform.parent;
+        transform.SetParent(FindObjectOfType<Canvas>().transform);
+    }
+
     public void Drag()
     {
         canvasGroup.blocksRaycasts = false;
@@ -45,11 +54,11 @@ public class ItemUI : MonoBehaviour
 
     public void EndDrag()
     {
+        if (transform.parent == FindObjectOfType<Canvas>().transform)
+            transform.SetParent(originalParent);
         GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-
         if (!equiped)
             canvasGroup.blocksRaycasts = true;
-
     }
 
 }

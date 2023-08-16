@@ -13,14 +13,19 @@ public class InventoryController : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.I))
         {
-            if (!inventoryView.IsInventoryUIOpen())
-            {
-                inventoryView.OpenInventoryUI(inventoryData.GetAllItens());
-            }
-            else
-            {
-                inventoryView.CloseInventoryUI();
-            }
+            OpenInventory();
+        }
+    }
+
+    public void OpenInventory()
+    {
+        if (!inventoryView.IsInventoryUIOpen())
+        {
+            inventoryView.OpenInventoryUI(inventoryData.GetAllItens());
+        }
+        else
+        {
+            inventoryView.CloseInventoryUI();
         }
     }
 
@@ -63,5 +68,16 @@ public class InventoryController : MonoBehaviour
                 inventoryData.AddItem(inventoryData.hatEquiped);
             //inventoryData.hatEquiped = null;
         }
+    }
+
+    public void RemoveItemFromInventory(Item item)
+    {
+        inventoryData.RemoveItem(item);
+    }
+
+    public void AddItemToInventory(Item item)
+    {
+        inventoryData.AddItem(item);
+        inventoryView.SetupInventoryUI(inventoryData.GetAllItens());
     }
 }

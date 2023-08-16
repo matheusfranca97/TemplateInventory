@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Pumpkin
   icon: {fileID: 21300000, guid: 1a28e6c6ad9fee24a96cf6b7efa3afcc, type: 2}
-  value: 5
+  value: 10
   itemType: 1
+  spriteLibraryAsset: {fileID: 0}

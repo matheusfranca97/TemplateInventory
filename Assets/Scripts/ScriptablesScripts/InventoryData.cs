@@ -7,6 +7,7 @@ public class InventoryData : MonoBehaviour
 {
     [SerializeField] private List<Item> allItens;
     public Item hatEquiped, clothEquiped;
+    public int coin;
 
     public void AddItem(Item item)
     {
