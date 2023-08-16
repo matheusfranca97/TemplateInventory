@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.U2D.Animation;
 
 public enum ItemType
 {
@@ -15,4 +15,5 @@ public class Item : ScriptableObject
     public Sprite icon;
     public int value;
     public ItemType itemType;
+    public SpriteLibraryAsset spriteLibraryAsset;
 }

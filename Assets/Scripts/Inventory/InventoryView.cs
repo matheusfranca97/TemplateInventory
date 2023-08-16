@@ -8,19 +8,34 @@ public class InventoryView : MonoBehaviour
     [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private GameObject itemUI;
     [SerializeField] private List<GameObject> itemContainers;
-    [SerializeField] private GameObject equipedClothUI, equipedHatUI;
 
 
-    public void OpenInventoryUI(List<Item> playerItens)
+    public void OpenInventoryUI(List<Item> inventoryItens)
     {
         inventoryPanel.SetActive(true);
+        SetupInventoryUI(inventoryItens);
+    }
 
-        for (int i = 0; i < playerItens.Count; i++)
+    void CleanItemContainers()
+    {
+        for (int i = 0; i < itemContainers.Count; i++)
         {
             if (itemContainers[i].transform.childCount >= 1)
-                return;
+            {
+                Destroy(itemContainers[i].transform.GetChild(0).gameObject);
+            }
+        }
+    }
+
+    public void SetupInventoryUI(List<Item> inventoryItens)
+    {
+        CleanItemContainers();
+
+        Debug.Log(inventoryItens.Count);
+        for (int i = 0; i < inventoryItens.Count; i++)
+        {
             var newItemUI = Instantiate(itemUI, itemContainers[i].transform);
-            newItemUI.GetComponent<ItemUI>().SetupItemUI(playerItens[i]);
+            newItemUI.GetComponent<ItemUI>().SetupItemUI(inventoryItens[i]);
         }
     }
 
@@ -33,5 +48,7 @@ public class InventoryView : MonoBehaviour
     {
         return inventoryPanel.activeSelf;
     }
+
+
 
 }

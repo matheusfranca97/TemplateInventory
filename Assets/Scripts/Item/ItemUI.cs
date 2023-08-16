@@ -6,8 +6,10 @@ public class ItemUI : MonoBehaviour
     [SerializeField] Image itemIconImage;
     [SerializeField] Text itemInformationText;
 
-    CanvasGroup canvasGroup;
+    public CanvasGroup canvasGroup;
     public Item myItem;
+
+    public bool equiped = false;
 
 
     private void Awake()
@@ -43,9 +45,11 @@ public class ItemUI : MonoBehaviour
 
     public void EndDrag()
     {
-        Debug.Log("terminei drag");
-        canvasGroup.blocksRaycasts = true;
         GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+
+        if (!equiped)
+            canvasGroup.blocksRaycasts = true;
+
     }
 
 }

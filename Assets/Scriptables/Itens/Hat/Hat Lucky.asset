@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a230ae7b7c2604687bc0be08253dbf, type: 3}
+  m_Name: Hat Lucky
+  m_EditorClassIdentifier: 
+  id: Lucky Hat
+  icon: {fileID: 1621578240, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
+  value: 0
+  itemType: 2
+  spriteLibraryAsset: {fileID: 7108339969198208228, guid: 4c126a681c343a943b8e0d6868fc30d0, type: 3}

@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26a230ae7b7c2604687bc0be08253dbf, type: 3}
-  m_Name: HatWizard
+  m_Name: SpookyCloth
   m_EditorClassIdentifier: 
-  id: WizardHat
-  icon: {fileID: -381415520, guid: f333d98935173a74e909f174c01185a8, type: 3}
+  id: Spooky Suit
+  icon: {fileID: 1710503896, guid: 9ae2bac6b88fad643a9114c2643c86d4, type: 3}
   value: 0
-  itemType: 2
+  itemType: 0
+  spriteLibraryAsset: {fileID: 7108339969198208228, guid: 50e242f3ab594e043b9495d27561ae0c, type: 3}

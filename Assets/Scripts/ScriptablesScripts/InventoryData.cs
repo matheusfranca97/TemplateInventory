@@ -6,7 +6,7 @@ using UnityEngine;
 public class InventoryData : MonoBehaviour
 {
     [SerializeField] private List<Item> allItens;
-    [SerializeField] private Item hatEquiped, clothEquiped;
+    public Item hatEquiped, clothEquiped;
 
     public void AddItem(Item item)
     {
