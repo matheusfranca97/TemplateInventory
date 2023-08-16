@@ -5,16 +5,27 @@ using UnityEngine;
 
 public class InventoryController : MonoBehaviour
 {
-    [SerializeField] InventoryData inventoryData;
-    [SerializeField] InventoryView inventoryView;
+    [SerializeField] private InventoryData inventoryData;
+    [SerializeField] private InventoryView inventoryView;
 
-    [SerializeField] PlayerEquipmentHandler playerEquipmentHandler;
+    [SerializeField] private PlayerEquipmentHandler playerEquipmentHandler;
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.I))
         {
             OpenInventory();
         }
+    }
+
+    public void RemoveItemFromInventory(Item item)
+    {
+        inventoryData.RemoveItem(item);
+    }
+
+    public void AddItemToInventory(Item item)
+    {
+        inventoryData.AddItem(item);
+        inventoryView.SetupInventoryUI(inventoryData.GetAllItens());
     }
 
     public void OpenInventory()
@@ -70,14 +81,5 @@ public class InventoryController : MonoBehaviour
         }
     }
 
-    public void RemoveItemFromInventory(Item item)
-    {
-        inventoryData.RemoveItem(item);
-    }
 
-    public void AddItemToInventory(Item item)
-    {
-        inventoryData.AddItem(item);
-        inventoryView.SetupInventoryUI(inventoryData.GetAllItens());
-    }
 }

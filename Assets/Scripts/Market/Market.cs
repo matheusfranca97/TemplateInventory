@@ -11,8 +11,4 @@ public class Market : MonoBehaviour
         marketController.OpenMarket();
     }
 
-    private void OnCollisionExit2D(Collision2D other)
-    {
-
-    }
 }
