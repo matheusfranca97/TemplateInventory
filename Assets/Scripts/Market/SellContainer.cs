@@ -25,7 +25,6 @@ public class SellContainer : MonoBehaviour, IDropHandler
         }
         else
         {
-            Debug.Log("larguei pumpkins aqui");
             Coin.instance.AddCoins(droppedItemUI.myItem.value);
             Destroy(droppedItem);
             inventoryController.RemoveItemFromInventory(droppedItemUI.myItem);

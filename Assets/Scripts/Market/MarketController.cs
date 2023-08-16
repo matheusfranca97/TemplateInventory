@@ -10,20 +10,18 @@ public class MarketController : MonoBehaviour
     [SerializeField]
     InventoryController inventoryController;
 
-    public void OnSellItem(Item selledItem)
-    {
-        Debug.Log("vendi um item");
-    }
 
-    public void OnBuyItem(Item buyedItem)
+    public void OnBuyItem(Item buyedItem, GameObject itemUIGameObject)
     {
         if (Coin.instance.GetCoins() >= buyedItem.value)
         {
+            Destroy(itemUIGameObject);
             Coin.instance.RemoveCoins(buyedItem.value);
             inventoryController.AddItemToInventory(buyedItem);
             marketData.RemoveItem(buyedItem);
             marketView.SetupItemContainers(marketData.GetAllItens());
         }
+
     }
 
     public void OpenMarket()

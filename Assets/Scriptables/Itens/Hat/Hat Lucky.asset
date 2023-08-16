@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hat Lucky
   m_EditorClassIdentifier: 
   id: Lucky Hat
-  icon: {fileID: 1621578240, guid: 9f41d3ac22b0541458d8cc2de0827f68, type: 3}
-  value: 0
+  icon: {fileID: 1621578240, guid: 1d7716e451f583a4eac9bd6fc9cbc23f, type: 3}
+  value: 20
   itemType: 2
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: 4c126a681c343a943b8e0d6868fc30d0, type: 3}

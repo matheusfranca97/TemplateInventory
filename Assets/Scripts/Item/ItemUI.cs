@@ -18,14 +18,12 @@ public class ItemUI : MonoBehaviour
         canvasGroup = GetComponent<CanvasGroup>();
     }
 
-    //OnEvent
-
     public void SetupItemUI(Item item)
     {
         myItem = item;
         itemIconImage.sprite = myItem.icon;
         itemIconImage.color = Color.white;
-        itemInformationText.text = myItem.id + " VALUE: " + myItem.value;
+        itemInformationText.text = myItem.id + " PRICE: " + myItem.value;
     }
 
     public void OnPointerOver()

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PumpkinCloth
   m_EditorClassIdentifier: 
   id: Pumpkin Suit
-  icon: {fileID: 1095589614, guid: 3da80083047fb7a46b5c0049b3717645, type: 3}
-  value: 0
+  icon: {fileID: 1095589614, guid: bbd14db65709c734f8c86659cbfea440, type: 3}
+  value: 20
   itemType: 0
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: bc740827153a50741a93edc0cab7aa6f, type: 3}

@@ -24,19 +24,18 @@ public class ItemContainerUI : MonoBehaviour, IDropHandler
 
         if (droppedItemUI.myItem.itemType == equipmentSlotType)
         {
-            // if (droppedItemUI.myItem.itemType == ItemType.Cloth || droppedItemUI.myItem.itemType == ItemType.Hat)
-            // {
+            if (droppedItemUI.forSale)
+                return;
+
             if (transform.childCount >= 1)
                 Destroy(transform.GetChild(0).gameObject);
             droppedItem.transform.SetParent(transform);
             inventoryController.OnEquipedItem(droppedItemUI.myItem);
             droppedItemUI.equiped = true;
-            //}
         }
         else if (droppedItemUI.forSale)
         {
-            marketController.OnBuyItem(droppedItemUI.myItem);
-            droppedItem.transform.SetParent(transform);
+            marketController.OnBuyItem(droppedItemUI.myItem, droppedItem);
             //inventoryController.AddItemToInventory(droppedItemUI.myItem);
         }
         else

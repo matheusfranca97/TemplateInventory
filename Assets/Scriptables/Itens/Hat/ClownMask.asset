@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ClownMask
   m_EditorClassIdentifier: 
   id: Clown Mask
-  icon: {fileID: 704076036, guid: 99cfcf675bb83d74bb65feb147a730a1, type: 3}
-  value: 0
+  icon: {fileID: 704076036, guid: 6cdc45f9033c4824e9f9e4c267c1b1f9, type: 3}
+  value: 20
   itemType: 2
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: 012681ba47e7ccf46bd135cf0dfa4001, type: 3}

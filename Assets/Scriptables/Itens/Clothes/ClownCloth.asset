@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ClownCloth
   m_EditorClassIdentifier: 
   id: Clown Suit
-  icon: {fileID: 1463803318, guid: c9293795932e690479e8943b1eb5a423, type: 3}
-  value: 0
+  icon: {fileID: 1463803318, guid: 6aa6fbac69861b341b6ea3d667ddab1d, type: 3}
+  value: 20
   itemType: 0
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: 77451257c710390448c75e88aa6f9ad2, type: 3}

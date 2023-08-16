@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpookyCloth
   m_EditorClassIdentifier: 
   id: Spooky Suit
-  icon: {fileID: 1710503896, guid: 9ae2bac6b88fad643a9114c2643c86d4, type: 3}
-  value: 0
+  icon: {fileID: 1710503896, guid: aef5e43a42213384fb6db7fb4048c8de, type: 3}
+  value: 20
   itemType: 0
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: 50e242f3ab594e043b9495d27561ae0c, type: 3}

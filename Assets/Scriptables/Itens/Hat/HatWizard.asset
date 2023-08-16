@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HatWizard
   m_EditorClassIdentifier: 
   id: WizardHat
-  icon: {fileID: -381415520, guid: f333d98935173a74e909f174c01185a8, type: 3}
-  value: 0
+  icon: {fileID: -1309469247, guid: 2dcfae0e4a577f94395fa9ede5ed0bfa, type: 3}
+  value: 20
   itemType: 2
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: 9b57753efda893e4eac6629f9c46953e, type: 3}

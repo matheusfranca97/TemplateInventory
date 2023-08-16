@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 267999599676520887}
   - component: {fileID: 6853956198948545000}
   - component: {fileID: 1215040604376533996}
-  - component: {fileID: 5198825027215226174}
   m_Layer: 5
   m_Name: ItemUIContainer
   m_TagString: Untagged
@@ -104,15 +103,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equipmentSlotType: 0
---- !u!210 &5198825027215226174
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9102914723816792304}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_SortAtRoot: 1

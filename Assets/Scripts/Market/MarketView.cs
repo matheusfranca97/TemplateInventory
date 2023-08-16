@@ -10,7 +10,6 @@ public class MarketView : MonoBehaviour
     [SerializeField]
     GameObject marketUIPanel;
     [SerializeField] GameObject itemUIPrefab;
-    [SerializeField] MarketController marketController;
 
     public void SetupItemContainers(List<Item> items)
     {

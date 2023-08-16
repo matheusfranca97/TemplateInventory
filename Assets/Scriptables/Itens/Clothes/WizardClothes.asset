@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WizardClothes
   m_EditorClassIdentifier: 
   id: Wizard Robes
-  icon: {fileID: -396714104, guid: f75bff38e451d5042a746c246bcee33f, type: 3}
-  value: 10
+  icon: {fileID: 1358007805, guid: 6c0e073e95e6cac40887481143c3f077, type: 3}
+  value: 20
   itemType: 0
   spriteLibraryAsset: {fileID: 7108339969198208228, guid: 6e5345f48f679614bb66e78b431c918a, type: 3}
